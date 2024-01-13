@@ -25,5 +25,5 @@ $userPhonenumber = $data->Body->stkCallback->CallbackMetadata->Item[4]->Value;
 // Check if the transaction is successfull
 
 if($ResultCode == 0){
-  
+  // store the data to the database
 }
